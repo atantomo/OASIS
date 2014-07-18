@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6FA11BE9-F437-4825-BD70-294B2BC36866</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OASIS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1751E210-792D-4F3A-A3FA-B64D0AA90745</key>
+		<string>https://github.com/atantomo/OASIS.git</string>
+		<key>C74DBF43-CCC6-48C2-97D8-44148C76565E</key>
+		<string>git://github.com/devinross/tapkulibrary.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OASIS.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1751E210-792D-4F3A-A3FA-B64D0AA90745</key>
+		<string>../..</string>
+		<key>C74DBF43-CCC6-48C2-97D8-44148C76565E</key>
+		<string>../../../tapkulibrary</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/atantomo/OASIS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1751E210-792D-4F3A-A3FA-B64D0AA90745</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1751E210-792D-4F3A-A3FA-B64D0AA90745</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OASIS</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C74DBF43-CCC6-48C2-97D8-44148C76565E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>tapkulibrary</string>
+		</dict>
+	</array>
+</dict>
+</plist>

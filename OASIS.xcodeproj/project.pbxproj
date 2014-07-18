@@ -16,11 +16,16 @@
 		52A097D0197951A20063C216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A097CE197951A20063C216 /* Main.storyboard */; };
 		52A097D3197951A20063C216 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A097D2197951A20063C216 /* ViewController.m */; };
 		52A097D5197951A20063C216 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A097D4197951A20063C216 /* Images.xcassets */; };
-		52A097DC197951A20063C216 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A097DB197951A20063C216 /* XCTest.framework */; };
 		52A097DD197951A20063C216 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A097BC197951A10063C216 /* Foundation.framework */; };
 		52A097DE197951A20063C216 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A097C0197951A10063C216 /* UIKit.framework */; };
 		52A097E6197951A30063C216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52A097E4197951A30063C216 /* InfoPlist.strings */; };
 		52A097E8197951A30063C216 /* OASISTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A097E7197951A30063C216 /* OASISTests.m */; };
+		52A098D6197951F00063C216 /* CalendarDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A098D5197951F00063C216 /* CalendarDayViewController.m */; };
+		52A098DA197952480063C216 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A098D8197952480063C216 /* Accelerate.framework */; };
+		52A098DB197952480063C216 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A098D9197952480063C216 /* QuartzCore.framework */; };
+		52A09909197956B90063C216 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A09908197956B90063C216 /* MapKit.framework */; };
+		52A0990F197957F00063C216 /* TapkuLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52A0990B197957F00063C216 /* TapkuLibrary.bundle */; };
+		52A0991D19795BC90063C216 /* libTapkuLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A09913197957F00063C216 /* libTapkuLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +35,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 52A097B8197951A10063C216;
 			remoteInfo = OASIS;
+		};
+		52A09912197957F00063C216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52A0990C197957F00063C216 /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = TapkuLibrary;
+		};
+		52A09914197957F00063C216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52A0990C197957F00063C216 /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B45DDF1134C736600D24C1A;
+			remoteInfo = LogicTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -49,10 +68,16 @@
 		52A097D2197951A20063C216 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		52A097D4197951A20063C216 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		52A097DA197951A20063C216 /* OASISTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OASISTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52A097DB197951A20063C216 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		52A097E3197951A20063C216 /* OASISTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OASISTests-Info.plist"; sourceTree = "<group>"; };
 		52A097E5197951A30063C216 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52A097E7197951A30063C216 /* OASISTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OASISTests.m; sourceTree = "<group>"; };
+		52A098D4197951F00063C216 /* CalendarDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDayViewController.h; sourceTree = "<group>"; };
+		52A098D5197951F00063C216 /* CalendarDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDayViewController.m; sourceTree = "<group>"; };
+		52A098D8197952480063C216 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		52A098D9197952480063C216 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		52A09908197956B90063C216 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		52A0990B197957F00063C216 /* TapkuLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TapkuLibrary.bundle; path = ../../tapkulibrary/src/TapkuLibrary.bundle; sourceTree = "<group>"; };
+		52A0990C197957F00063C216 /* TapkuLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TapkuLibrary.xcodeproj; path = ../../tapkulibrary/src/TapkuLibrary.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +85,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A0991D19795BC90063C216 /* libTapkuLibrary.a in Frameworks */,
+				52A09909197956B90063C216 /* MapKit.framework in Frameworks */,
+				52A098DA197952480063C216 /* Accelerate.framework in Frameworks */,
+				52A098DB197952480063C216 /* QuartzCore.framework in Frameworks */,
 				52A097BF197951A10063C216 /* CoreGraphics.framework in Frameworks */,
 				52A097C1197951A10063C216 /* UIKit.framework in Frameworks */,
 				52A097BD197951A10063C216 /* Foundation.framework in Frameworks */,
@@ -70,7 +99,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52A097DC197951A20063C216 /* XCTest.framework in Frameworks */,
 				52A097DE197951A20063C216 /* UIKit.framework in Frameworks */,
 				52A097DD197951A20063C216 /* Foundation.framework in Frameworks */,
 			);
@@ -101,10 +129,12 @@
 		52A097BB197951A10063C216 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52A09908197956B90063C216 /* MapKit.framework */,
+				52A098D8197952480063C216 /* Accelerate.framework */,
+				52A098D9197952480063C216 /* QuartzCore.framework */,
 				52A097BC197951A10063C216 /* Foundation.framework */,
 				52A097BE197951A10063C216 /* CoreGraphics.framework */,
 				52A097C0197951A10063C216 /* UIKit.framework */,
-				52A097DB197951A20063C216 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +142,15 @@
 		52A097C2197951A10063C216 /* OASIS */ = {
 			isa = PBXGroup;
 			children = (
+				52A0990B197957F00063C216 /* TapkuLibrary.bundle */,
+				52A0990C197957F00063C216 /* TapkuLibrary.xcodeproj */,
 				52A097CB197951A10063C216 /* AppDelegate.h */,
 				52A097CC197951A20063C216 /* AppDelegate.m */,
 				52A097CE197951A20063C216 /* Main.storyboard */,
 				52A097D1197951A20063C216 /* ViewController.h */,
 				52A097D2197951A20063C216 /* ViewController.m */,
+				52A098D4197951F00063C216 /* CalendarDayViewController.h */,
+				52A098D5197951F00063C216 /* CalendarDayViewController.m */,
 				52A097D4197951A20063C216 /* Images.xcassets */,
 				52A097C3197951A10063C216 /* Supporting Files */,
 			);
@@ -150,6 +184,15 @@
 				52A097E4197951A30063C216 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52A0990D197957F00063C216 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A09913197957F00063C216 /* libTapkuLibrary.a */,
+				52A09915197957F00063C216 /* LogicTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +258,12 @@
 			mainGroup = 52A097B0197951A10063C216;
 			productRefGroup = 52A097BA197951A10063C216 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 52A0990D197957F00063C216 /* Products */;
+					ProjectRef = 52A0990C197957F00063C216 /* TapkuLibrary.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				52A097B8197951A10063C216 /* OASIS */,
@@ -223,12 +272,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		52A09913197957F00063C216 /* libTapkuLibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTapkuLibrary.a;
+			remoteRef = 52A09912197957F00063C216 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		52A09915197957F00063C216 /* LogicTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LogicTests.xctest;
+			remoteRef = 52A09914197957F00063C216 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		52A097B7197951A10063C216 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				52A097D5197951A20063C216 /* Images.xcassets in Resources */,
+				52A0990F197957F00063C216 /* TapkuLibrary.bundle in Resources */,
 				52A097C7197951A10063C216 /* InfoPlist.strings in Resources */,
 				52A097D0197951A20063C216 /* Main.storyboard in Resources */,
 			);
@@ -252,6 +319,7 @@
 				52A097D3197951A20063C216 /* ViewController.m in Sources */,
 				52A097CD197951A20063C216 /* AppDelegate.m in Sources */,
 				52A097C9197951A10063C216 /* main.m in Sources */,
+				52A098D6197951F00063C216 /* CalendarDayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -365,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -376,9 +444,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OASIS/OASIS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Users/MacbookPro/Documents/Developer/tapkulibrary/src,
+				);
 				INFOPLIST_FILE = "OASIS/OASIS-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -389,9 +468,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OASIS/OASIS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Users/MacbookPro/Documents/Developer/tapkulibrary/src,
+				);
 				INFOPLIST_FILE = "OASIS/OASIS-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +546,7 @@
 				52A097ED197951A30063C216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52A097EE197951A30063C216 /* Build configuration list for PBXNativeTarget "OASISTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +555,7 @@
 				52A097F0197951A30063C216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
